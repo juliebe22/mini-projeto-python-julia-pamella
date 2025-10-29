@@ -1,6 +1,6 @@
 # Projetos com estrutura de repetição e estrutura de dados 💻
-## Cadastro de produtos 
-### Sistema que permite ao usuário fazer um controle de estoque ultilizando as seguintes funções:
+## Sistema de Cadastro de Produtos 
+### Funções do sistema:
 #### • Cadastrar produtos:
 Solicita código, nome, preço, quantidade e categoria, evita códigos duplicados usando o set e adiciona o produto à lista.
 #### • Listar produtos:
@@ -30,3 +30,5 @@ Garante que não haja produtos duplicados.
 Armazena as categorias fixas.
 #### • Dicionário:
 Representa um único produto, armazenando informações em pares chave: valor.
+
+## Sistema de Controle de Alunos e Notas 
