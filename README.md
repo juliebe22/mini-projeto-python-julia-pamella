@@ -92,19 +92,24 @@ Exemplo:
 6. Relatórios
 7. Sair
 Exemplo de uso:
-#Exemplo 1: Cadastro de aluno
+### Exemplo 1: Cadastro de aluno
 Digite a matrícula do aluno: 101
 Digite o nome do aluno: Ana
 ALUNO CADASTRADO COM SUCESSO!
 
-# Exemplo 2: Registro de notas
+### Exemplo 2: Registro de notas
+
 Digite a matrícula do aluno: 101
+
 Digite a 1ª nota: 8
+
 Digite a 2ª nota: 7
+
 Digite a 3ª nota: 9
+
 Notas registradas com sucesso!
 
-# Exemplo 3: Listagem de alunos e médias
+### Exemplo 3: Listagem de alunos e médias
 Matrícula: 101
 Nome: Ana
 Notas: (8.0, 7.0, 9.0)
