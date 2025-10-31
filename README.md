@@ -30,6 +30,66 @@ Garante que não haja produtos duplicados.
 Armazena as categorias fixas.
 #### • Dicionário:
 Representa um único produto, armazenando informações em pares chave: valor.
+## Como funciona?
+O sistema apresenta um menu principal com as opções numeradas.
+
+O usuário escolhe uma opção e segue as instruções para realizar a atividade desejada.
+
+Exemplo: 
+
+=== Sistema de cadastro de produtos ===
+
+1 - Cadastrar produto
+
+2 - Listar produtos
+
+3 - Buscar produto
+
+4 - Atualizar produto
+
+5 - Excluir produto
+
+0 - Sair
+
+Exemplo de uso:
+### Exemplo 1: Cadastro de produto
+Digite o código do produto (apenas números): 2222
+
+Nome do produto: Açúcar
+
+Preço do produto: 4.99
+
+Quantidade em estoque: 134
+
+=== Categorias disponíveis ===
+
+1 - Alimentos
+
+2 - Limpeza
+
+3 - Bebidas 
+
+4 - Outros produtos
+
+Digite a categoria: 1
+
+Produto cadastrado com sucesso!
+
+### Exemplo 2: Listar os produtos cadastrados
+
+{'Código': 2222, 'Nome': 'Açúcar', 'Preço': '4.99', 'Quantidade': '134', 'Categoria': 'Alimentos'}
+
+{'Código': 1111, 'Nome': 'Sabão líquido', 'Preço': '11.99', 'Quantidade': '98', 'Categoria': 'Limpeza'}
+
+{'Código': 3333, 'Nome': 'Coca-cola', 'Preço': '9.99', 'Quantidade': '245', 'Categoria': 'Bebidas'}
+
+### Exemplo 3: Buscar produto
+
+Digite o código do produto: 2222
+
+Produto encontrado: {'Código': 2222, 'Nome': 'Açúcar', 'Preço': '4.99', 'Quantidade': '134', 'Categoria': 'Alimentos'}
+
+
 
 ## Sistema de Controle de Alunos e Notas 
 
@@ -59,14 +119,18 @@ Calcula a média dos alunos e exibe sua situação:
 1. Alunos cadastrados
 2. Médias individuais
 3. Aprovados e reprovados
+   
 • Sair do sistema
 Encerra o programa.
 ### Estruturas de repetição utilizadas:
 #### • While
 Mantém o menu interativo em execução até o usuário escolher sair (opção 0).
 #### • For
+
 Usado para:
+
 • Percorrer a lista de notas dos alunos.
+
 • Mostrar os alunos em listagens e relatórios.
 ### Estruturas de dados utilizadas:
 #### • Dicionário (dict)
@@ -78,12 +142,19 @@ Evita que nomes duplicados sejam cadastrados.
 Usada temporariamente para receber as notas antes de transformá-las em tupla.
 #### • Tupla (tuple)
 Armazena as notas do aluno de forma imutável.
-Como funciona?
+
+## Como funciona?
+
 O sistema apresenta um menu principal com as opções numeradas.
+
 O usuário escolhe uma opção e segue as instruções exibidas no console.
+
 Exemplo:
------------- SISTEMA DE CONTROLE DE ALUNOS E NOTAS -----------------
----- MENU PRINCIPAL ------------------------------------------
+
+------------ SISTEMA DE CONTROLE DE ALUNOS E NOTAS --------------
+
+----------------------- MENU PRINCIPAL --------------------------
+
 1. Cadastrar novo aluno
 2. Registrar notas
 3. Listar alunos e médias
@@ -91,10 +162,14 @@ Exemplo:
 5. Mostrar aprovados e reprovados
 6. Relatórios
 7. Sair
+   
 Exemplo de uso:
 ### Exemplo 1: Cadastro de aluno
+
 Digite a matrícula do aluno: 101
+
 Digite o nome do aluno: Ana
+
 ALUNO CADASTRADO COM SUCESSO!
 
 ### Exemplo 2: Registro de notas
@@ -110,11 +185,19 @@ Digite a 3ª nota: 9
 Notas registradas com sucesso!
 
 ### Exemplo 3: Listagem de alunos e médias
+
 Matrícula: 101
+
 Nome: Ana
+
 Notas: (8.0, 7.0, 9.0)
+
 Média: 8.0
-#Exemplo 4: Situação final
+
+### Exemplo 4: Situação final
+
 Aluno: Ana
+
 Média: 8.0
+
 Situação: APROVADO!
